@@ -4,7 +4,7 @@ import tensorflow as tf
 
 # define the model
 model = tf.keras.Sequential()
-model.add(tf.keras.layers.Dense(16, input_shape=(None,), activation='relu'))
+model.add(tf.keras.layers.Dense(16, input_shape=(22,50), activation='relu'))
 model.add(tf.keras.layers.Dense(1, activation='sigmoid'))
 
 # compile the model
